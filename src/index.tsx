@@ -4,7 +4,6 @@ import { Routes } from "./routes";
 import { store } from "./store";
 import { MD3LightTheme } from 'react-native-paper'
 
-
 export function Main() {
   return <ReduxProvider store={store}>
     <PaperProvider theme={MD3LightTheme}>
